@@ -1,0 +1,3 @@
+%#colocar arquivos que nao vao ser commitados
+.venv/
+.vscode/
