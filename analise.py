@@ -157,7 +157,7 @@ plt.show()
 ### DIAS QUE FOGEM CONSIDERAVELMENTE DA MÉDIA DE TRANSITO ###
 '''
 #Gráfico de quantidade de dias em função da porcentagem de transito a mais do que a média para dias de semana
-media_todos = df.groupby('dia', as_index=False)['traffic_volume'].mean()
+media_todos = df.groupby('dia', as_index=False)['traffic_volume'].mean()    
 media_semana = media_todos[media_todos['dia']<5]
 media_final = media_semana['traffic_volume'].mean()
 
