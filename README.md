@@ -25,7 +25,7 @@ holiday (str) | temperatura(float) | quantidade de chuva(float) | quantidade de 
 ## analise.ipynb É onde se encontram todas as análises em cima dos dados acima. Utilizou-se pandas e matplolib para o desenvolvimento. Os códigos refletem 
 ## a curva de aprendizado do autor, testando diferentes métodos de produzir os mesmos resultados. Abaixo encontram-se alguns dos resultados:
 
-![Quantidade média de carros x Clima](imagens/veiculosxclima.png)
+![Quantidade média de carros x Clima](imagens/transitoxclima.png)
 ## Os gráficos acima mostram a média de trânsito e os valores máximos e mínimos em cada condição meteorológica
 ### Nota-se uma diminuição da média de trânsito de cerca de 19% em dias com neblina, 38% para vendavais e 12% para nevoeiro, todos em comparação
 ### com a média de dias nublados e ensolarados
@@ -59,8 +59,7 @@ holiday (str) | temperatura(float) | quantidade de chuva(float) | quantidade de 
 
 ## Para mais resultados, consultar analise.ipynb
 
-### atualizacao_csv.py é uma forma de automatização da atualização da planilha "Metro_Interstate_Traffic_Volume.csv". O objetivo de sua inserção é criar planilhas que são atualizadas diariamente,
-### necessitando de analises constantes dos dados. Os dados inseridos são sintéticos baseados em distribuição estatística, uma vez que nao há acesso fácil as informações reais. Os dados foram feitos seguindo os valores médios da 
+### atualizacao_csv.py é uma forma de automatização da atualização da planilha "Metro_Interstate_Traffic_Volume.csv". O objetivo de sua inserção é criar planilhas que são atualizadas diariamente, necessitando de analises constantes dos dados. Os dados inseridos são sintéticos baseados em distribuição estatística, uma vez que nao há acesso fácil as informações reais. Os dados foram feitos seguindo os valores médios da 
 ### planilha original. Assim, os novos valores, em geral seguem:
 ### VALOR MEDIO + DESVIO PADRÃO * NUMERO ALEATORIO + RUIDO
 ### Onde o numero aleatorio está entre -1 e 1 (ou seja, com os dois primeiros termos podemos atingir até o maximo de desvio padrão dos dados) e o termo RUIDO depende também de números aleatórios
