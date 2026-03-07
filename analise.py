@@ -21,7 +21,7 @@ from scipy.interpolate import CubicSpline
 # In[2]:
 
 
-df = pd.read_csv("Projeto_trafego/Metro_Interstate_Traffic_Volume.csv")
+df = pd.read_csv("Data_csv/Metro_Interstate_Traffic_Volume.csv")
 #df = df.fillna(0) #coloca 0 quando encontra NaN
 df['date_time'] = pd.to_datetime(df['date_time'])
 df['hora'] = df['date_time'].dt.hour
