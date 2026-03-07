@@ -21,7 +21,7 @@ from scipy.interpolate import CubicSpline
 # In[2]:
 
 
-df = pd.read_csv("Data_csv/Metro_Interstate_Traffic_Volume.csv")
+df = pd.read_csv("Projeto_trafego/Metro_Interstate_Traffic_Volume.csv")
 #df = df.fillna(0) #coloca 0 quando encontra NaN
 df['date_time'] = pd.to_datetime(df['date_time'])
 df['hora'] = df['date_time'].dt.hour
@@ -33,7 +33,7 @@ print(df)
 
 
 # ## Primeira análise (Apenas um exemplo, não fazer dessa forma): 
-# ### Número de carros por condição metereológica
+# ### Número de carros por condição meteorológica
 
 # In[3]:
 
@@ -298,7 +298,7 @@ for clima in climas:
 plt.show()
 
 
-# ## Correlação entre a temperatura e eo volume de tráfego para diferentes condições metereológicas
+# ## Correlação entre a temperatura e eo volume de tráfego para diferentes condições meteorológicas
 # A correlação entre as variáveis citadas se dão maiores em determinados climas, como, por exemplo, os climas com neve e núvens.
 # Outro climas, entretanto, mostram uma correlação muito pequena, como chuva e dias ensolarados. 
 # As médias (pontos amarelos) foram tirados mensalmente
@@ -325,7 +325,7 @@ for _ in range(50):
 plt.plot(x, quantidade)
 plt.show()
 
-# Evolução do dia em que o transito foi 40% maior do que a média (possível acidente ou condição metereologica adversa)
+# Evolução do dia em que o transito foi 40% maior do que a média (possível acidente ou condição meteorologica adversa)
 casos_quarenta = valores[valores['traffic_volume']>media_final*1.4]
 informacoes = df[df['data'].isin(casos_quarenta['data'])]
 print(informacoes[['temp','weather_main','date_time','traffic_volume']])
