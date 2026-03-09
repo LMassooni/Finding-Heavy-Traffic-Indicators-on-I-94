@@ -1,5 +1,6 @@
 # Análise de Fluxo de Tráfego: Rodovia I-94
 ## Este projeto foi feito com o objetivo de analisar os dados de trânsito da rodovia que liga Minneapolis e St. Paul, Minnesota, chamada rodovia I-94.
+## Link para os dados utilizados: https://archive.ics.uci.edu/dataset/492/metro+interstate+traffic+volume
 
 ### O objetivo deste projeto é mostrar informações como a diferença do trânsito aos fins de semana e dias comerciais, evolução do trânsito diário
 ### e indicativos de quando (e quanto) o trânsito na rodovia é mais intenso.
