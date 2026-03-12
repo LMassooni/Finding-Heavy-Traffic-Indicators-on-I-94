@@ -119,7 +119,7 @@ Among all weather types, **squall conditions appear to be the most avoided**, pr
 
 ![Variacao por hora do transito medio](imagens/transito-hora.png)
 
-![Variacao por hora do transito medio](imagens/variacao_do_transito_hora_dia_semana_x_fim_semana.png)
+![Variacao por hora do transito medio](imagens/variacao_do_transito_hora.png)
 
 
 The first graph represents the **average hourly traffic volume**, with vertical bars indicating the **standard deviation** of the data.
