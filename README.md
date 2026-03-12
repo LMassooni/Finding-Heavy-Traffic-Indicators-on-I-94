@@ -117,7 +117,7 @@ Among all weather types, **squall conditions appear to be the most avoided**, pr
 ## Hourly Traffic Evolution
 
 
-![Variacao por hora do transito medio](imagens/transito-hora.png)
+![](imagens/transito-hora.png)
 
 ![Variacao por hora do transito medio](imagens/variacao_do_transito_hora.png)
 
