@@ -117,9 +117,12 @@ Among all weather types, **squall conditions appear to be the most avoided**, pr
 ## Hourly Traffic Evolution
 
 
-![Variacao por hora do transito medio](imagens/variacao_do_transito_hora.png)
+![Variacao por hora do transito medio](imagens/transito-hora.png)
 
-This graph represents the **average hourly traffic volume**, with vertical bars indicating the **standard deviation** of the data.
+![Variacao por hora do transito medio](imagens/variacao_do_transito_hora_dia_semana_x_fim_semana.png)
+
+
+The first graph represents the **average hourly traffic volume**, with vertical bars indicating the **standard deviation** of the data.
 
 Key observations:
 
@@ -136,6 +139,12 @@ This variability is not observed during periods such as:
 During these hours, traffic remains more stable.
 
 The **highest traffic volume** occurs at the end of the workday, between **16:00 and 17:00**, although with **less dispersion** than the morning peak.
+
+The second image compares the average traffic volume in weekdays (blue curve) and the rate of change of the traffic volume (yellow) per hour. It was made by 
+interpolating the mean traffic volume and taking the first derivative of it. It shows that the peek in the morning between **06:00 and 07:00**, it's caused by
+a rapdly increase in of the amount of cars from 5:00, which could point out that the traffic in the cities are high in early hours than in the highway.
+Around 7 a.m., the number of cars stabilizes, as indicated by the blue function near 0 in the graph above. After 4 p.m., the variation in the number of cars 
+becomes negative, meaning that more cars are leaving the highway than entering it, indicating a possible traffic jam on the roads of the cities connected to the highway.
 
 ---
 
